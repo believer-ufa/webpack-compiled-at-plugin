@@ -19,3 +19,7 @@ let config = {
 
 module.exports = config;
 ```
+
+And see time of last compilation in your terminal:
+
+![output](./screenshot.png)
