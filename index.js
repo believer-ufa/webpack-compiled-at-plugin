@@ -30,9 +30,11 @@ class CompileTimePlugin {
   constructor() {
     this.writeTimerId = null;
     this.doneAt = null;
+
+    this.writeTime = this.writeTime.bind(this);
   }
 
-  writeTime = () => {
+  writeTime() {
     const timeAgo = calcTimeDiff(this.doneAt);
     const now = new Date();
 
