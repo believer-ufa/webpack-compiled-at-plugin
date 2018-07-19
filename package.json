@@ -1,6 +1,6 @@
 {
   "name": "webpack-compiled-at-plugin",
-  "version": "0.1.2",
+  "version": "1.0.0",
   "description": "Webpack plugin that displays difference between compile time and now",
   "main": "index.js",
   "scripts": {
